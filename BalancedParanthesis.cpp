@@ -8,6 +8,7 @@ bool arePair(char a,char b){
     else
     return false;
 }
+//Function balanced paratheses
 bool isValid(string str){
     int len=str.length();
     stack<char> s;
