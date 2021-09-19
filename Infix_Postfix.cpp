@@ -1,25 +1,22 @@
 #include<bits/stdc++.h>
 #define fr(i, n) for (int i = 0; i < n; i++)
 using namespace std;
-// class Parent{
-//     public:
-//     Parent(){
-//         cout<<"Constructor of parent"<<endl;
-//     }
-// };
-// class Child :public Parent{
-//     public:
-//     Child(){
-//         cout<<"Constructor of child class "<<endl;
-//     }
-// };
+class Parent{
+    public:
+    Parent(){
+        cout<<"Constructor of parent"<<endl;
+    }
+};
+class Child :public Parent{
+    public:
+    Child(){
+        cout<<"Constructor of child class "<<endl;
+    }
+};
 
 int main(){
-    // Child obj;
-    string a="0";
-    // cout<<int(a);
-    int b=stoi(a);
-    cout<<b;
+    Child obj;
+    
 
     
     return 0;
